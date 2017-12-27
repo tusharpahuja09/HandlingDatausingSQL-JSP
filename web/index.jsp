@@ -14,22 +14,23 @@
     <body>
         <h1>Selecting specific data from a DB</h1>
         <form name="myForm" action="display.jsp" method="POST">
-        </form>
         <table border="0">
            
             <tbody>
                 <tr>
                     <td>First Name: </td>
-                    <td><input type="text" name="firstName" value="" size="50"/></td>
+                    <td><input type="text" name="first" value="" size="50"/></td>
                 </tr>
                 <tr>
                     <td>Last Name: </td>
-                    <td><input type="text" name="lastName" value="" size="50"/></td>
+                    <td><input type="text" name="last" value="" size="50"/></td>
                 </tr>
             </tbody>
         </table>
         <input type="reset" value="Clear" name="clear" />
-        <input type="submit" value="Submit" name="Submit" />
+        <input type="submit" value="Submit" name="submit" />
+        </form>
+        
 
     </body>
 </html>
